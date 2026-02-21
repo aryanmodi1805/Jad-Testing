@@ -75,13 +75,14 @@ class AppServiceProvider extends ServiceProvider
         AuthenticationException::redirectUsing(
             fn(): string => Filament::getLoginUrl() ?? Filament::getPanel('customer')->getLoginUrl()
         );
-        FilamentAsset::register([
-            Js::make('local-scripts', Vite::asset('resources/js/app.js'))->module(),
-            Css::make('local-styles', Vite::asset('resources/css/local.css')),
-            AlpineComponent::make('lightbox', __DIR__ . '/../../resources/js/dist/components/lightbox.js'),
-            Js::make('mobile-nav', __DIR__ . '/../../resources/js/mobile-nav.js'),
-
-        ]);
+        if (!app()->runningInConsole()) {
+            FilamentAsset::register([
+                Js::make('local-scripts', Vite::asset('resources/js/app.js'))->module(),
+                Css::make('local-styles', Vite::asset('resources/css/local.css')),
+                AlpineComponent::make('lightbox', __DIR__ . '/../../resources/js/dist/components/lightbox.js'),
+                Js::make('mobile-nav', __DIR__ . '/../../resources/js/mobile-nav.js'),
+            ]);
+        }
 
 
         FilamentColor::register([

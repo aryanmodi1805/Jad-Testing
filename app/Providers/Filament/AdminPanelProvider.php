@@ -63,7 +63,7 @@ class AdminPanelProvider extends PanelProvider
             ->brandLogo(fn() => app()->getLocale() == 'ar' ? getArLogo():getEnLogo())
             ->viteTheme('resources/css/filament/admin/theme.css')
             ->login(Login::class)
-            ->assets([
+            ->assets(app()->runningInConsole() ? [] : [
                 Js::make('notify', Vite::asset('resources/js/notification.js'))->module(),
             ])
             ->maxContentWidth(MaxWidth::Full)
@@ -139,7 +139,7 @@ class AdminPanelProvider extends PanelProvider
                 CountryPaymentsWidget::class,
             ])->font(
                 'Din meduim',
-                url: asset('assets/font.css'),
+                url: app()->runningInConsole() ? null : asset('assets/font.css'),
 
                 provider: LocalFontProvider::class
             )

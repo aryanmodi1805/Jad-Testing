@@ -61,7 +61,7 @@ class SellerPanelProvider extends PanelProvider
             ->authGuard('seller')
             ->brandLogo(fn() => app()->getLocale() == 'ar' ? getArLogo():getEnLogo())
             ->viteTheme('resources/css/filament/seller/theme.css')
-            ->assets([
+            ->assets(app()->runningInConsole() ? [] : [
                 Js::make('notify', Vite::asset('resources/js/notification.js'))->module(),
             ])
             ->darkMode(false)

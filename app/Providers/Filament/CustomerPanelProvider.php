@@ -48,7 +48,7 @@ class CustomerPanelProvider extends PanelProvider
             ->path('customer')
             ->authGuard('customer')
             ->brandLogo(fn() => app()->getLocale() == 'ar' ? getArLogo():getEnLogo())
-            ->assets([
+            ->assets(app()->runningInConsole() ? [] : [
                 Js::make('notify', Vite::asset('resources/js/notification.js'))->module(),
             ])
             ->viteTheme('resources/css/filament/customer/theme.css')

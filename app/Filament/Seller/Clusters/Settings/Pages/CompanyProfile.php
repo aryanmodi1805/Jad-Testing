@@ -78,7 +78,7 @@ class CompanyProfile extends Page implements Forms\Contracts\HasForms
 
     protected function getProfileFormSchema(): array
     {
-        $current_tenant = getSubdomain() ?? 'sa' ;
+        $current_tenant = getSubdomain() ?? 'test' ;
 
         $groupFields = Forms\Components\Section::make(__('seller.company.profile'))
             ->description(__('seller.company.text'))

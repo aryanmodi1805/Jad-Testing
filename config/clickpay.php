@@ -44,7 +44,7 @@ Merchant ID 4250
 
     'currency' => env('clickpay_currency', 'SAR'),
     'region' => env('clickpay_region', 'SAU'),
-    'callback_url' => env('clickpay_url_callback', url('/paymentIpnCallback')),
+    'callback_url' => env('clickpay_url_callback', config('app.url') . '/paymentIpnCallback'),
 
 //    'callback' => env('clickpay_ipn_callback', \App\Filament\Seller\Pages\ClickPayPage::class ),
 

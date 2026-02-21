@@ -221,6 +221,9 @@ if (!function_exists('appUrl')) {
         if (empty($path)) {
             return null;
         }
+        if (app()->runningInConsole()) {
+            return config('app.url') . '/storage/' . $path;
+        }
         return (request())->getUriForPath('/storage/'.$path);
     }
 }
@@ -230,6 +233,10 @@ if (!function_exists('mediaAppUrl')) {
     {
         if (empty($path)) {
             return null;
+        }
+
+        if (app()->runningInConsole()) {
+            return config('app.url') . '/' . ltrim($path, '/');
         }
 
         return (request())->getUriForPath($path);
@@ -493,6 +500,9 @@ if (!function_exists('getCountry')) {
 if (!function_exists('getTenant')) {
     function getTenant(): ?Country
     {
+        if (app()->runningInConsole()) {
+            return getCountry(id: app(GeneralSettings::class)->default_country);
+        }
 
         $user = auth('customer')->user() ?? auth('seller')->user();
         if ($user && !empty($country = $user->country)) {
@@ -502,9 +512,6 @@ if (!function_exists('getTenant')) {
                 $geoDetect = new GeoDetect();
                 $countryCode = $geoDetect->getCountry(request()->ip());
                 return getCountry(code: $countryCode->getIsoCode());
-//                            $country = Country::where("code", $countryCode->getIsoCode())->active()->first();
-//                            return $country ?? Country::find(app(GeneralSettings::class)->default_country) ?? Country::first();
-
             } catch (Exception $e) {
                 return getCountry(id: app(GeneralSettings::class)->default_country);
             }
@@ -532,7 +539,7 @@ if (!function_exists('isDesktop')) {
 }
 
 if (!function_exists('getTenantBySubDomain')) {
-    function getTenantBySubDomain($subDomain = 'sa'): ?Country
+    function getTenantBySubDomain($subDomain = 'test'): ?Country
     {
         return getCountry(subDomain: $subDomain);
     }
@@ -567,6 +574,9 @@ if (!function_exists('getCountryId')) {
 if (!function_exists('getHost')) {
     function getHost(): string
     {
+        if (app()->runningInConsole()) {
+            return parse_url(config('app.url'), PHP_URL_HOST) ?? 'localhost';
+        }
         $host = request()->getHost(); // Step 1: Extract the host
         $hostParts = explode('.', $host); // Step 2: Split the host by dots
 
@@ -582,6 +592,9 @@ if (!function_exists('getHost')) {
 if (!function_exists('getSubdomain')) {
     function getSubdomain(): ?string
     {
+        if (app()->runningInConsole()) {
+            return null;
+        }
         $host = request()->getHost(); // Step 1: Extract the host
         $hostParts = explode('.', $host); // Step 2: Split the host by dots
 
@@ -621,7 +634,13 @@ if (!function_exists('redirectToTenant')) {
         }
         
         // Fallback if tenant is null
-        $slug = $tenant?->slug ?? 'sa';
+        $slug = $tenant?->slug ?? 'test';
+
+        // Force 'test' subdomain in staging if it would otherwise be 'sa'
+        if ($slug === 'sa' && app()->environment('staging')) {
+            $slug = 'test';
+        }
+
         $redirectUrl = "{$scheme}://{$slug}.{$hostWithoutSubdomains}{$request->getRequestUri()}";
 
         return redirect()->to($redirectUrl);

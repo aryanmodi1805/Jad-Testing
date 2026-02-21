@@ -39,7 +39,7 @@ class RegisterPage extends Register
 
     protected function getForms(): array
     {
-        $current_tenant = getSubdomain() ?? 'sa';
+        $current_tenant = getSubdomain() ?? 'test';
         return [
             'form' => $this->form(
                 $this->makeForm()

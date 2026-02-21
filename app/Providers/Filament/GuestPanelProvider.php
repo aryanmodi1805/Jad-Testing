@@ -47,54 +47,59 @@ class GuestPanelProvider extends PanelProvider
     {
         $isMobile = isMobile();
 
-        $categories =
-            Cache::remember('categories_data', 60 * 30,
-                fn()=>
-                Category::query()->select('categories.*' , 'sub_categories.requests_count')
-                    ->joinSub(Category::query()->with('requests')->withCount('requests'), 'sub_categories' ,'sub_categories.parent_id' , '=' , 'categories.id' )
-                    ->whereNotNull('categories.icon')
-                    ->whereNull("categories.parent_id")
-                    ->orderBy('sub_categories.requests_count', 'desc')
-                    ->limit(5)->get());
+        $categoriesNavItems = [];
+        $popularServicesNavItems = [];
 
-        $categoriesSubItems = [];
+        if (!app()->runningInConsole()) {
+            $categories =
+                Cache::remember('categories_data', 60 * 30,
+                    fn()=>
+                    Category::query()->select('categories.*' , 'sub_categories.requests_count')
+                        ->joinSub(Category::query()->with('requests')->withCount('requests'), 'sub_categories' ,'sub_categories.parent_id' , '=' , 'categories.id' )
+                        ->whereNotNull('categories.icon')
+                        ->whereNull("categories.parent_id")
+                        ->orderBy('sub_categories.requests_count', 'desc')
+                        ->limit(5)->get());
 
-        foreach ($categories as $category) {
-            $categoriesSubItems[] = NavigationItem::make(fn()=>$category->name)->url('/categories/'.$category->id)
-                ->icon($category->icon)
-                ->group(fn()=>__('services.categories.plural'));
-        }
+            $categoriesSubItems = [];
 
-        $categoriesNavItems = $isMobile ? [] : [
-            NavigationItem::make(fn()=>__('services.categories.plural'))->icon('heroicon-o-tag')->group(fn()=>__('services.services.plural'))
-                ->childItems($categoriesSubItems)
-        ];
+            foreach ($categories as $category) {
+                $categoriesSubItems[] = NavigationItem::make(fn()=>$category->name)->url('/categories/'.$category->id)
+                    ->icon($category->icon)
+                    ->group(fn()=>__('services.categories.plural'));
+            }
 
-        if($isMobile){
-            $categoriesNavItems = array_merge($categoriesNavItems,$categoriesSubItems);
-        }
+            $categoriesNavItems = $isMobile ? [] : [
+                NavigationItem::make(fn()=>__('services.categories.plural'))->icon('heroicon-o-tag')->group(fn()=>__('services.services.plural'))
+                    ->childItems($categoriesSubItems)
+            ];
 
-        $popularServices = Cache::remember('services_data', 60 * 30, fn()=>
-                Service::where('services.active' , true)
-                    ->withCount('requests')
-                    ->orderBy('requests_count', 'desc')
-                    ->limit(5)->get());
+            if($isMobile){
+                $categoriesNavItems = array_merge($categoriesNavItems,$categoriesSubItems);
+            }
 
-        $popularServicesSubItems = [];
+            $popularServices = Cache::remember('services_data', 60 * 30, fn()=>
+                    Service::where('services.active' , true)
+                        ->withCount('requests')
+                        ->orderBy('requests_count', 'desc')
+                        ->limit(5)->get());
 
-        foreach ($popularServices as $service) {
-            $popularServicesSubItems[] = NavigationItem::make(fn()=> $service->name)->url('/services/'.$service->id)
-                ->group(fn()=>__('services.services.popular_services'));
-        }
+            $popularServicesSubItems = [];
 
-        $popularServicesNavItems =$isMobile ? [] : [
-            NavigationItem::make(fn()=>__('services.services.popular_services'))
-                ->icon('tabler-brand-linktree')
-                ->group(fn()=>__('services.services.plural'))->childItems($popularServicesSubItems)
-        ];
+            foreach ($popularServices as $service) {
+                $popularServicesSubItems[] = NavigationItem::make(fn()=> $service->name)->url('/services/'.$service->id)
+                    ->group(fn()=>__('services.services.popular_services'));
+            }
 
-        if($isMobile){
-            $popularServicesNavItems = array_merge($popularServicesNavItems,$popularServicesSubItems);
+            $popularServicesNavItems =$isMobile ? [] : [
+                NavigationItem::make(fn()=>__('services.services.popular_services'))
+                    ->icon('tabler-brand-linktree')
+                    ->group(fn()=>__('services.services.plural'))->childItems($popularServicesSubItems)
+            ];
+
+            if($isMobile){
+                $popularServicesNavItems = array_merge($popularServicesNavItems,$popularServicesSubItems);
+            }
         }
 
         return $panel
@@ -140,7 +145,7 @@ class GuestPanelProvider extends PanelProvider
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
             ])
-            ->navigationItems(array_merge($categoriesNavItems, $popularServicesNavItems,
+            ->navigationItems(app()->runningInConsole() ? [] : array_merge($categoriesNavItems, $popularServicesNavItems,
                 [
                 NavigationItem::make('login_customer')->url(fn() => auth('customer')->check() ? '/customer/' : '/customer/login')
                     ->label(fn() => auth('customer')->check() ? __('auth.customer_dashboard') : __('auth.login'))->visible($isMobile),

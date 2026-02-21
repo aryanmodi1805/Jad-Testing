@@ -135,7 +135,7 @@ class SellerPanelProvider extends PanelProvider
             ->tenantMenu(false);
             
         // Only enable tenant in production
-        if (!app()->environment('local', 'testing')) {
+        if (!app()->environment('local', 'testing', 'staging')) {
             $panel->tenant(Country::class, slugAttribute: 'slug')
                   ->tenantDomain('{tenant:slug}.' . getHost());
         }

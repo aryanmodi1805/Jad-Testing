@@ -18,17 +18,17 @@
         <meta name="description" content="JAD Services connects you with trusted service providers in Saudi Arabia. Compare prices, book professionals, and get the best service experience.">
 
         {{-- Canonical URL --}}
-        <link rel="canonical" href="https://sa.jad.services/">
+        <link rel="canonical" href="{{ config('app.url') }}">
 
         {{-- Hreflang Tags --}}
-        <link rel="alternate" hreflang="en" href="https://sa.jad.services/" />
-        <link rel="alternate" hreflang="ar" href="https://sa.jad.services/locale/ar" />
-        <link rel="alternate" hreflang="x-default" href="https://sa.jad.services/" />
+        <link rel="alternate" hreflang="en" href="{{ config('app.url') }}" />
+        <link rel="alternate" hreflang="ar" href="{{ url('locale/ar') }}" />
+        <link rel="alternate" hreflang="x-default" href="{{ config('app.url') }}" />
 
         {{-- Open Graph --}}
         <meta property="og:title" content="JAD Services | Service Providers in Saudi Arabia">
         <meta property="og:description" content="Find and compare trusted service providers in Saudi Arabia with JAD Services.">
-        <meta property="og:url" content="https://sa.jad.services/">
+        <meta property="og:url" content="{{ config('app.url') }}">
         <meta property="og:type" content="website">
 
         {{-- Conditional Noindex for Login/Cart Pages --}}

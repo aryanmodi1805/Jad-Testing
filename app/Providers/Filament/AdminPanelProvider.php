@@ -165,7 +165,7 @@ class AdminPanelProvider extends PanelProvider
             ->databaseNotificationsPolling('300s');
             
         // Only enable tenant in production
-        if (!app()->environment('local', 'testing')) {
+        if (!app()->environment('local', 'testing', 'staging')) {
             $panel->tenant(Country::class, slugAttribute: 'slug')
                   ->tenantDomain('{tenant:slug}.'. getHost());
         }

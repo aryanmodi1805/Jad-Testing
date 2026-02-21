@@ -74,7 +74,7 @@ class SubscriptionsChart extends ChartWidget
         $country_id = filament()->getTenant()?->id ?? getTenant()?->id ?? null;
         
         // In local development, use first country as fallback
-        if (!$country_id && app()->environment('local', 'testing')) {
+        if (!$country_id && app()->environment('local', 'testing', 'staging')) {
             $country_id = \App\Models\Country::first()?->id;
         }
         

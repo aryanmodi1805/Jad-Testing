@@ -14,7 +14,7 @@ class TenantScope implements Scope
     public function apply(Builder $builder, Model $model): void
     {
         // Skip tenant scope in local/testing environments or when no tenant is available
-        if (app()->environment('local', 'testing')) {
+        if (app()->environment('local', 'testing', 'staging')) {
             return;
         }
         

@@ -12,7 +12,7 @@ return [
     'nationwide_location_already_exists' => 'الموقع على مستوى الدولة موجود بالفعل',
 
     'insufficient_funds' => 'رصيد غير كافي',
-    'insufficient_balance' => 'رصيد غير كافي',
+    'insufficient_balance' => 'الدفع النقدي غير متاح لهذا البائع حالياً. يرجى استخدام الدفع الإلكتروني.',
     'minimum_balance_required' => 'يرجى الحفاظ على الحد الأدنى من الرصيد',
     'has_been_bought' => 'تم شراءة مسبقا',
     'process_failed' => 'فشلت العملية',

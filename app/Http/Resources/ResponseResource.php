@@ -23,6 +23,7 @@ class ResponseResource extends JsonResource
             "customer"=> CustomerResource::make($this->customer),
             "created_since"=> $this->created_at->diffForHumans(),
             'request' => RequestResource::make($this->request),
+            'cash_payment_available' => $this->canPayCash(),
         ];
     }
 }

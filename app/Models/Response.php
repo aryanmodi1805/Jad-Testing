@@ -87,4 +87,24 @@ class Response extends Model implements Auditable
             ->where('blocked_type', get_class($otherUser))
             ->exists();
     }
+
+    public function canPayCash(): bool
+    {
+        $estimate = $this->estimate;
+        if (!$estimate) {
+            return false;
+        }
+
+        $commissionRate = 0.30; // 30%
+        $commissionAmount = $estimate->amount * $commissionRate;
+        $seller = $this->seller;
+
+        if (!$seller) {
+            return false;
+        }
+
+        $currentBalance = $seller->balance() ? (float)(string)$seller->balance()->value : 0.0;
+
+        return $currentBalance >= $commissionAmount;
+    }
 }

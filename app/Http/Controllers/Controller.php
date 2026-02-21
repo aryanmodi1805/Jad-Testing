@@ -35,7 +35,7 @@ class Controller extends BaseController
         }
 
         if($data == null){
-            $data = $message;
+            $data = ['message' => $message, 'data' => null];
         }
 
         // Sanitize the message to remove newlines/carriage returns - HTTP reason phrases cannot contain these

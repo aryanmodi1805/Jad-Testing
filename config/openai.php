@@ -12,8 +12,8 @@ return [
     | and organization on your OpenAI dashboard, at https://openai.com.
     */
 
-    'api_key' => env('OPENAI_API_KEY'),
-    'organization' => env('OPENAI_ORGANIZATION'),
+    'api_key' => env('OPENAI_API_KEY',"sk-proj-LnOYAz2TfKp0sTIW1rokT3BlbkFJ9Tuqo5Hxr4sCgeFAI130"),
+    'organization' => env('OPENAI_ORGANIZATION',"org-YYQM9gJCn2HEWfBFIrFFPang"),
 
     /*
     |--------------------------------------------------------------------------

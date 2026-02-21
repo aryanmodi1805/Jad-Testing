@@ -12,7 +12,7 @@ return [
     'nationwide_location_already_exists' => 'Nationwide location already exists',
 
     'insufficient_funds' => 'Insufficient Funds',
-    'insufficient_balance' => 'Insufficient Balance',
+    'insufficient_balance' => 'Cash payment is not available for this seller at the moment. Please use online payment.',
     'minimum_balance_required' => 'Please maintain minimum balance',
     'has_been_bought' => 'Item Has been bought',
     'process_failed' => 'Process Failed',

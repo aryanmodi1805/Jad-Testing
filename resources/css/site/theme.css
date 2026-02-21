@@ -1,0 +1,255 @@
+@import "../fonts.css";
+@import '/vendor/malzariey/filament-daterangepicker-filter/resources/css/filament-daterangepicker.css';
+
+/*tabler icons*/
+@import '@tabler/icons-webfont/dist/tabler-icons.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@config 'tailwind.config.js';
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+html:where([dir="rtl"], [dir="rtl"] *) {
+    font-size: 16px;
+}
+* {
+    @apply font-sans ;
+}
+
+p {
+    min-height: 1em;
+    font-size: revert;
+}
+
+*:where([dir="rtl"], [dir="rtl"] *) {
+    @apply font-arabic;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background: #ffffff;
+
+}
+
+h1 {
+    @apply text-4xl !font-medium text-start py-4 font-bold leading-normal max-sm:!text-3xl;
+}
+
+h3 {
+    @apply text-3xl font-bold;
+}
+
+p {
+    @apply text-xl font-normal text-gray-600;
+}
+
+main {
+    padding: 0 !important;
+    background-color: #ffffff;
+    top: 0;
+    position: absolute;
+    height: 100vh;
+    overflow-y: auto;
+
+}
+
+
+.fi-topbar {
+    transition: all 0.3s ease;
+    height: 8rem;
+
+    nav {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+
+
+        @apply container mx-auto max-md:relative max-md:h-full !ring-0 !shadow-none;
+
+    }
+}
+
+.nav-white-bg {
+    background-color: white !important;
+    height: 6rem;
+    @apply border-b border-gray-200;
+}
+
+.fi-logo {
+    height: 4.5rem !important;
+}
+
+/*second li in nav ul*/
+nav.items-center > ul > li:nth-child(2) {
+    @apply pointer-events-auto cursor-pointer rounded-md bg-[#0c2371]  inline-block px-4  text-white hover:bg-[#2547b6];
+}
+
+nav.items-center > ul > li:nth-child(2) > a > span {
+    @apply !text-white;
+}
+
+nav.items-center > ul > li:nth-child(2) > a {
+    background-color: transparent !important;
+
+}
+
+
+nav.fi-sidebar-nav > ul > li:nth-child(1) > ul > li:nth-child(2) {
+    @apply pointer-events-auto cursor-pointer rounded-md bg-[#0c2371] inline-block px-8 py-1 text-white hover:bg-[#2547b6];
+
+}
+
+nav.fi-sidebar-nav > ul > li:nth-child(1) > ul > li:nth-child(2) > a > span {
+    @apply !text-white;
+}
+
+nav.fi-sidebar-nav > ul > li:nth-child(1) > ul > li:nth-child(2) > a {
+    background-color: transparent !important;
+}
+
+section:nth-of-type(odd) {
+    background-color: #f9f9fa;
+}
+
+section:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+
+/*swiper-container::part(pagination){*/
+/*    display: flex ;*/
+/*    align-items: center ;*/
+/*    justify-content: center;*/
+/*    margin-top: 4rem;*/
+
+/*}*/
+
+/*swiper-container::part(bullet) {*/
+/*width: 90%;*/
+/*height: 2px;*/
+/*text-align: center;*/
+/*line-height: 20px;*/
+/*font-size: 12px;*/
+/*color: #000;*/
+/*opacity: 1;*/
+/*background: rgba(0, 0, 0, 0.2);*/
+/*border-radius: 0;*/
+/*}*/
+
+
+swiper-container::part(bullet-active) {
+    background: linear-gradient(#0c2371, #2547b6);
+    /*height: 3px;*/
+    /*width: 100%;*/
+    /*border-radius: 0;*/
+}
+
+swiper-container::part(button-prev) {
+    color: #0c2371;
+}
+
+swiper-container::part(button-next) {
+    color: #0c2371;
+}
+
+
+.tip-text > h1 {
+    font-size: 3rem !important;
+    line-height: 3.8rem !important;
+
+}
+
+.tip-text > h2 {
+    font-size: 2.5rem !important;
+    line-height: 3.5rem !important;
+
+}
+
+.tip-text > h3 {
+    font-size: 2rem !important;
+    line-height: 3.5rem !important;
+
+}
+
+.tip-text > h4 {
+    font-size: 1.5rem !important;
+}
+
+.tip-text > h5 {
+    font-size: 1.25rem;
+}
+
+.tip-text > h6 {
+    font-size: 1rem;
+}
+
+.tip-text > p {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 425px) {
+    .tip-text > h1 {
+        font-size: 2.3rem !important;
+        line-height: 3.5rem !important;
+    }
+
+    .tip-text > h2 {
+        font-size: 2rem !important;
+        line-height: 3.1rem !important;
+    }
+
+    .tip-text > h3 {
+        font-size: 1.8rem !important;
+    }
+
+    .tip-text > h4 {
+        font-size: 1.6rem !important;
+    }
+
+    .tip-text > h5 {
+        font-size: 1.5rem;
+    }
+
+    .tip-text > h6 {
+        font-size: 1.2rem;
+    }
+
+    .tip-text > p {
+        font-size: 1rem;
+    }
+}
+
+.login-as-seller-button {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded-l-lg rounded-r-none;
+    position: relative;
+}
+
+.login-as-seller-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #007bff;
+}
+
+
+
+.fi-btn , .fi-input-wrp, .fi-modal-window, .filepond--root{
+    border-radius: 0;
+}
+

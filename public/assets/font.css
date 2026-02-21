@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "29LT Bukra";
+    src: url("/font/29LTBukra-Regular.woff2") format("woff2"),
+      url("/font/29LTBukra-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "29LT Bukra";
+    src: url("/font/29LTBukra-Bold.woff2") format("woff2"),
+    url("/font/29LTBukra-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "29LT Bukra";
+    src: url("/font/29ltbukralight.woff2") format("woff2"),
+    url("/font/29ltbukralight.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "29LT Bukra";
+    src: url("/font/29ltbukrabolditalic.woff2") format("woff2"),
+    url("/font/29ltbukrabolditalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+  }
+
+@font-face {
+    font-family: 'Din meduim';
+    src: url("/font/DinNextMedium.eot") format("embedded-opentype"), url("/font/DinNextMedium.svg") format("svg"), url("/font/DinNextMedium.woff") format("ttf"), url("/font/DinNextMedium.woff") format("woff"), url("/font/DinNextMedium.woff2") format("woff2");
+    font-weight: meduim;
+    font-style: meduim;
+}
+
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px
+}
+
+*{
+    font-family: '29LT Bukra';
+}
+

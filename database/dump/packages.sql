@@ -1,0 +1,4 @@
+REPLACE INTO `packages` (`id`, `name`, `description`, `credits`, `price`, `discount`, `ex_VAT`, `is_best_value`, `is_active`, `country_id`, `created_at`, `updated_at`, `deleted_at`, `currency_id`) VALUES
+(1, '{\"ar\":\"باقة 1\",\"en\":\"Package 1\"}', '{\"ar\":\"وصف الباقة باللغة العربية\",\"en\":\"وصف الباقة باللغة العربية\"}', 15, 8.00, NULL, 1, 1, 1, 127, '2024-08-05 10:27:12', '2024-09-07 08:39:00', NULL, 82),
+(2, '{\"ar\":\"باقة 2\",\"en\":\"Package 2\"}', '{\"ar\":\"وصف الباقة باللغة العربية2\",\"en\":\"english description\"}', 50, 30.00, NULL, 1, 0, 1, 127, '2024-08-05 10:27:58', '2024-09-07 08:40:11', NULL, 82),
+(3, '{\"ar\":\"باقة 3\",\"en\":\"Package 3\"}', '{\"ar\":\"وصف الباقة باللغة العربية3\",\"en\":\"3english description\"}', 120, 75.00, NULL, 1, 0, 1, 127, '2024-09-07 08:40:42', '2024-09-07 08:40:42', NULL, 82);

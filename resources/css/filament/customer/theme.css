@@ -1,0 +1,67 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+@import '/vendor/malzariey/filament-daterangepicker-filter/resources/css/filament-daterangepicker.css';
+
+@import '../../fonts.css';
+
+/*tabler icons*/
+@import '@tabler/icons-webfont/dist/tabler-icons.css';
+
+
+@config 'tailwind.config.js';
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+html:where([dir="rtl"], [dir="rtl"] *) {
+    font-size: 16px;
+}
+* {
+    @apply font-sans ;
+}
+
+
+*:where([dir="rtl"], [dir="rtl"] *) {
+    @apply font-arabic;
+}
+
+
+body {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background: #ffffff;
+
+}
+
+.active {
+    color: #0c2371; /* Adjust the color as needed */
+    border-bottom: 2px solid #0c2371; /* Adjust the border color as needed */
+}
+
+.fi-btn ,.fi-input-wrp, .fi-modal-window, .filepond--root,.fi-badge,.fi-checkbox-input, .fi-wi-stats-overview-stat,.fi-section,.fi-ta-ctn,.filepond--panel-root,.filepond--image-preview-wrapper, .fi-fo-repeater-item,.fi-dropdown-panel,.fi-ta-record,.fi-fieldset,.fi-pagination-items {
+    border-radius: 0;
+}
+
+
+
+.fi-topbar {
+    height: 6rem;
+
+    nav {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+.fi-logo {
+    height: 4rem !important;
+}
+
+.custom-section > .fi-section-header {
+    background-color: #0c23711a;
+}
+

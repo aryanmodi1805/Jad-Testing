@@ -1,0 +1,35 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "dev:site": "vite --config vite.site.config.js",
+        "build": "npm-run-all build:*",
+        "build:site": "vite build --config vite.site.config.js",
+        "build:panels": "vite build",
+        "build:photo-swiper": "node bin/build.js && php artisan filament:assets"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.9",
+        "@tailwindcss/typography": "^0.5.15",
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.7.7",
+        "daisyui": "^4.12.10",
+        "esbuild": "^0.23.1",
+        "laravel-echo": "^1.16.1",
+        "laravel-vite-plugin": "^1.0.5",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.4.45",
+        "postcss-nesting": "^12.1.5",
+        "pusher-js": "^8.4.0-rc2",
+        "tailwindcss": "^3.4.10",
+        "vite": "^5.4.11"
+    },
+    "dependencies": {
+        "@tabler/icons-webfont": "^3.14.0",
+        "alpinejs-i18n": "^2.4.2",
+        "firebase": "^11.2.0",
+        "photoswipe": "^5.4.4",
+        "swiper": "^11.1.12"
+    }
+}

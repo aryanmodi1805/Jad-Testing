@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "29LT Bukra";
+    src: url("/font/29LTBukra-Regular.woff2") format("woff2"),
+      url("/font/29LTBukra-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "29LT Bukra";
+    src: url("/font/29LTBukra-Bold.woff2") format("woff2"),
+    url("/font/29LTBukra-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "29LT Bukra";
+    src: url("/font/29ltbukralight.woff2") format("woff2"),
+    url("/font/29ltbukralight.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "29LT Bukra";
+    src: url("/font/29ltbukrabolditalic.woff2") format("woff2"),
+    url("/font/29ltbukrabolditalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+  }
+
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px
+}
+
+* {
+    @apply font-mt;
+}
+
+
+*:where([dir="rtl"], [dir="rtl"] *) {
+    font-family: "Noto Sans Arabic", sans-serif;
+}

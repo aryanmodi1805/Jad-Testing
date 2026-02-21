@@ -1,0 +1,244 @@
+@import "photoswipe/dist/photoswipe.css";
+
+@import "./fonts.css";
+
+/*tabler icons*/
+@import '@tabler/icons-webfont/dist/tabler-icons.css';
+
+:root {
+    --swiper-theme-color: #000 !important;
+}
+swiper-container::part(button-prev) {
+    --swiper-navigation-color: #92298D;
+}
+swiper-container::part(button-next) {
+    --swiper-navigation-color: #92298D;
+}
+.modal-without-padding > .fi-modal-content {
+    padding: 0 !important;
+}
+.tiptap-editor{
+    min-height: 25rem;
+}
+.fi-logo{
+    height: 2rem !important;
+}
+.chat-filepond .filepond--root {
+    max-height: 20rem;
+}
+
+* {
+    font-family: "Gordita", sans-serif;
+}
+
+
+*:where([dir="rtl"], [dir="rtl"] *) {
+    font-family: "Noto Sans Arabic", sans-serif;
+}
+
+/*html {*/
+/*    @apply scrollbar-thin ;*/
+/*}*/
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    background: #e5e7eb
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d1d5db
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c9cbcd
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: #101215
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #1f2126
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #1a1d21
+}
+
+.alert-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.alert-box {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert-message {
+    margin: 0;
+    font-size: 14px;
+}
+
+.fi-fo-wizard-header {
+    @apply !divide-y-0 !overflow-x-auto !grid-flow-col
+}
+
+.fi-modal-footer-actions {
+    @apply justify-end;
+}
+
+.fi-loading {
+    @apply cursor-not-allowed pointer-events-none animate-pulse;
+}
+
+.danger-fill {
+    @apply fill-danger-500;
+}
+
+div .lightbox-previews {
+    /*@apply scrollbar-thumb-primary-500 scrollbar-track-gray-200;*/
+}
+
+div.lightbox-previews {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    justify-content: center;
+    /*@apply scrollbar-thin;*/
+}
+
+div.lightbox-previews img {
+    --size: 6rem;
+    width: var(--size);
+    height: var(--size);
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 0.3;
+    transition: opacity 0.3s;
+}
+
+div.lightbox-previews img:hover {
+    opacity: 0.8;
+}
+
+div.lightbox-previews img.preview-active {
+    opacity: 1;
+    cursor: default;
+}
+
+.lightbox-container {
+    --pswp-bg: #000000;
+    background: black;
+}
+
+.lightbox-image {
+    /*height: 4rem;*/
+    /*min-width: 4rem;*/
+    /*cursor: pointer;*/
+    object-fit: cover;
+    @apply min-w-[14rem] h-[12rem] border relative overflow-hidden rounded-xl hover:shadow-lg;
+}
+
+html:dir(rtl) .pswp__button--arrow--next {
+    left: 0;
+    right: unset;
+    transform: rotate(180deg);
+}
+
+html:dir(rtl) .pswp__button--arrow--prev {
+    left: unset;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.seller-table .fi-ta-content{
+    width: 105% !important;
+    /*background-blend-mode: color;*/
+    @apply shadow-none;
+    @apply border-0;
+    @apply bg-transparent;
+    @apply p-0;
+    @apply rounded-none;
+}
+.seller-table .fi-ta-ctn {
+    width: 100% !important;
+    /*background-blend-mode: color;*/
+    @apply !shadow-none;
+    @apply !border-0;
+    @apply !bg-transparent;
+    @apply !p-0;
+    @apply !rounded-none;
+    @apply   divide-y-0;
+    @apply  !ring-0;
+
+}
+
+
+.seller-table .fi-ta-record > div > div,
+.seller-table .fi-ta-record > div > div > div > div {
+    padding: 0 !important;
+    height: 100%;
+    gap: 0 !important;
+    margin: 0 !important;
+}
+
+.seller-table .fi-ta-record > div,
+.seller-table .fi-ta-record > div > div > div > div > div {
+    height: 100%;
+}
+
+.sellerContainer,
+.sellerContainer > div,
+.sellerContainer .fi-ta-col-wrp,
+.sellerContainer .fi-ta-col-wrp > div {
+    height: 100%;
+}
+
+.fi-in-tabs-tab:has(.seller-table) {
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+    padding: 0 !important;
+}
+
+td:has(.table_repeater_placeholder) {
+    @apply max-md:!hidden;
+}
+
+.seller-table .fi-ta-actions {
+    @apply !gap-0 !p-0;
+}
+
+.seller-table .fi-ta-ctn {
+    @apply rounded-t-none;
+}
+
+.seller-table .fi-ta-actions {
+    @apply !gap-0 !p-0;
+}
+
+
+
+
+
+
+
+
+
+

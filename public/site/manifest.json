@@ -1,0 +1,87 @@
+{
+  "node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons.ttf": {
+    "file": "assets/tabler-icons-B9xT_EAp.ttf",
+    "src": "node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons.ttf"
+  },
+  "node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons.woff": {
+    "file": "assets/tabler-icons-BNpibzM5.woff",
+    "src": "node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons.woff"
+  },
+  "node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons.woff2": {
+    "file": "assets/tabler-icons-Bt51Qirb.woff2",
+    "src": "node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons.woff2"
+  },
+  "resources/css/fonts/ARIALROUNDEDMT.woff": {
+    "file": "assets/ARIALROUNDEDMT-BzYNz1-m.woff",
+    "src": "resources/css/fonts/ARIALROUNDEDMT.woff"
+  },
+  "resources/css/fonts/ARIALROUNDEDMTEXTRABOLD.woff": {
+    "file": "assets/ARIALROUNDEDMTEXTRABOLD-BkAI7v6n.woff",
+    "src": "resources/css/fonts/ARIALROUNDEDMTEXTRABOLD.woff"
+  },
+  "resources/css/fonts/ARIALROUNDEDMTLIGHT.woff": {
+    "file": "assets/ARIALROUNDEDMTLIGHT-CQmbUdqM.woff",
+    "src": "resources/css/fonts/ARIALROUNDEDMTLIGHT.woff"
+  },
+  "resources/css/fonts/ARLRDBD.woff": {
+    "file": "assets/ARLRDBD-CGUUrGTW.woff",
+    "src": "resources/css/fonts/ARLRDBD.woff"
+  },
+  "resources/css/fonts/bahij/Bahij-Janna-Bold.ttf": {
+    "file": "assets/Bahij-Janna-Bold-xNviwFtg.ttf",
+    "src": "resources/css/fonts/bahij/Bahij-Janna-Bold.ttf"
+  },
+  "resources/css/fonts/bahij/Bahij-Janna-Regular.ttf": {
+    "file": "assets/Bahij-Janna-Regular-SothtpUL.ttf",
+    "src": "resources/css/fonts/bahij/Bahij-Janna-Regular.ttf"
+  },
+  "resources/css/fonts/gordita/Gordita-Black.otf": {
+    "file": "assets/Gordita-Black-13NLTEQw.otf",
+    "src": "resources/css/fonts/gordita/Gordita-Black.otf"
+  },
+  "resources/css/fonts/gordita/Gordita-BlackItalic.otf": {
+    "file": "assets/Gordita-BlackItalic-CXvp2Vsm.otf",
+    "src": "resources/css/fonts/gordita/Gordita-BlackItalic.otf"
+  },
+  "resources/css/fonts/gordita/Gordita-Bold.otf": {
+    "file": "assets/Gordita-Bold-M8Vtq4wC.otf",
+    "src": "resources/css/fonts/gordita/Gordita-Bold.otf"
+  },
+  "resources/css/fonts/gordita/Gordita-BoldItalic.otf": {
+    "file": "assets/Gordita-BoldItalic-DjheW7j6.otf",
+    "src": "resources/css/fonts/gordita/Gordita-BoldItalic.otf"
+  },
+  "resources/css/fonts/gordita/Gordita-Light.otf": {
+    "file": "assets/Gordita-Light-B8q6Ho2c.otf",
+    "src": "resources/css/fonts/gordita/Gordita-Light.otf"
+  },
+  "resources/css/fonts/gordita/Gordita-LightItalic.otf": {
+    "file": "assets/Gordita-LightItalic-DQ37vfTF.otf",
+    "src": "resources/css/fonts/gordita/Gordita-LightItalic.otf"
+  },
+  "resources/css/fonts/gordita/Gordita-Medium.otf": {
+    "file": "assets/Gordita-Medium-CcfFHmd3.otf",
+    "src": "resources/css/fonts/gordita/Gordita-Medium.otf"
+  },
+  "resources/css/fonts/gordita/Gordita-MediumItalic.otf": {
+    "file": "assets/Gordita-MediumItalic-COzxy1TS.otf",
+    "src": "resources/css/fonts/gordita/Gordita-MediumItalic.otf"
+  },
+  "resources/css/fonts/gordita/Gordita-Regular.otf": {
+    "file": "assets/Gordita-Regular-qN2vTRoC.otf",
+    "src": "resources/css/fonts/gordita/Gordita-Regular.otf"
+  },
+  "resources/css/fonts/gordita/Gordita-RegularItalic.otf": {
+    "file": "assets/Gordita-RegularItalic-BfYUl2uT.otf",
+    "src": "resources/css/fonts/gordita/Gordita-RegularItalic.otf"
+  },
+  "resources/css/fonts/noto-sans.woff2": {
+    "file": "assets/noto-sans-BTXLbHR0.woff2",
+    "src": "resources/css/fonts/noto-sans.woff2"
+  },
+  "resources/css/site/theme.css": {
+    "file": "assets/theme-lgBkO14f.css",
+    "src": "resources/css/site/theme.css",
+    "isEntry": true
+  }
+}

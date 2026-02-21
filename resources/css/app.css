@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@config 'tailwind.config.js';
+
+
+html {
+    scroll-behavior: smooth;
+    font-size:14px;
+  }
+
+*{
+  font-family: 'Gordita', sans-serif;
+
+}
+*:where([dir="rtl"], [dir="rtl"] *) {
+    font-family: "Noto Sans Arabic", sans-serif;
+}
+body{
+    width:100%;
+    position: relative;
+    overflow-x:hidden;
+    background: #ffffff;
+
+}
+
+.swiper-pagination-horizontal{
+    display: flex;
+    position:static !important;
+    align-items:center;
+}
+
+.customer-opinions .swiper-pagination-bullet {
+    width: 30%;
+    height: 2px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius:0;
+  }
+
+  .customer-opinions .swiper-pagination-bullet-active {
+    background: linear-gradient(#CE4F57, #92298D);
+    height: 3px;
+  }
+
+body.modal-open {
+    overflow: hidden;
+}
+
+
+@layer base {
+    html {
+        color-scheme: light !important;
+    }
+}

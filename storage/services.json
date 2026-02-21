@@ -1,0 +1,812 @@
+﻿[
+    {
+        "name": "3D Modeling and CAD Services",
+        "slug": "3d-modeling-and-cad-services",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/3d-modeling-and-cad-services/"
+    },
+    {
+        "name": "Advert Design",
+        "slug": "advert-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/advert-design/"
+    },
+    {
+        "name": "Animation",
+        "slug": "animation",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/animation/"
+    },
+    {
+        "name": "Binding",
+        "slug": "binding",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/binding/"
+    },
+    {
+        "name": "Brand Design",
+        "slug": "brand-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/brand-design/"
+    },
+    {
+        "name": "Brochure Design",
+        "slug": "brochure-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/brochure-design/"
+    },
+    {
+        "name": "Business Card Design",
+        "slug": "business-card-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/business-card-design/"
+    },
+    {
+        "name": "E Commerce",
+        "slug": "e-commerce",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/e-commerce/"
+    },
+    {
+        "name": "Email Template Design",
+        "slug": "email-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/email-design/"
+    },
+    {
+        "name": "Engineering and Technical Design",
+        "slug": "engineering-and-technical-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/engineering-and-technical-design/"
+    },
+    {
+        "name": "Engineering Design",
+        "slug": "engineering-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/engineering-design/"
+    },
+    {
+        "name": "Flyer & Leaflet Design",
+        "slug": "flyer-leaflet-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/flyer-leaflet-design/"
+    },
+    {
+        "name": "General Software development",
+        "slug": "software-development",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/software-development/"
+    },
+    {
+        "name": "Graphic Design",
+        "slug": "graphic-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/graphic-design/"
+    },
+    {
+        "name": "Illustrators",
+        "slug": "illustrators",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/illustrators/"
+    },
+    {
+        "name": "Logo Design",
+        "slug": "logo-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/logo-design/"
+    },
+    {
+        "name": "Mobile Software Development",
+        "slug": "mobile-software-development",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/mobile-software-development/"
+    },
+    {
+        "name": "Office Stationery",
+        "slug": "office-stationery",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/office-stationery/"
+    },
+    {
+        "name": "Packaging Design",
+        "slug": "packaging-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/packaging-design/"
+    },
+    {
+        "name": "Presentation Design",
+        "slug": "presentation-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/presentation-design/"
+    },
+    {
+        "name": "Print Design",
+        "slug": "print-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/print-design/"
+    },
+    {
+        "name": "Technical Design",
+        "slug": "technical-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/technical-design/"
+    },
+    {
+        "name": "UX & UI Design",
+        "slug": "ui-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/ui-design/"
+    },
+    {
+        "name": "Web Design",
+        "slug": "web-design",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/web-design/"
+    },
+    {
+        "name": "Web Development",
+        "slug": "web-developers",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/web-developers/"
+    },
+    {
+        "name": "Above Ground Swimming Pool Installation",
+        "slug": "above-ground-swimming-pool-installation",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/above-ground-swimming-pool-installation/"
+    },
+    {
+        "name": "Hot Tub and Spa Cleaning",
+        "slug": "hot-tub-and-spa-cleaning",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/hot-tub-and-spa-cleaning/"
+    },
+    {
+        "name": "\"Hot Tub and Spa Installation, Maintenance & Cleaning\"",
+        "slug": "hot-tub-and-spa",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/hot-tub-and-spa/"
+    },
+    {
+        "name": "Hot Tub and Spa Repair",
+        "slug": "hot-tub-and-spa-repair",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/hot-tub-and-spa-repair/"
+    },
+    {
+        "name": "Swimming Pool Installation",
+        "slug": "swimming-pool-installation",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/swimming-pool-installation/"
+    },
+    {
+        "name": "Swimming Pool Repair",
+        "slug": "swimming-pool-repair",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/swimming-pool-repair/"
+    },
+    {
+        "name": "Academic Entrance Exams Tutoring",
+        "slug": "academic-entrance-exams-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/academic-entrance-exams-tutoring/"
+    },
+    {
+        "name": "Astronomy Tutoring",
+        "slug": "astronomy-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/astronomy-tutoring/"
+    },
+    {
+        "name": "Biology Tutoring",
+        "slug": "biology-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/biology-tutoring/"
+    },
+    {
+        "name": "Calculus Tutoring",
+        "slug": "calculus-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/calculus-tutoring/"
+    },
+    {
+        "name": "Chemistry Tutoring",
+        "slug": "chemistry-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/chemistry-tutoring/"
+    },
+    {
+        "name": "Economics Tutoring",
+        "slug": "economics-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/economics-tutoring/"
+    },
+    {
+        "name": "Electrical Engineering Tutoring",
+        "slug": "electrical-engineering-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/electrical-engineering-tutoring/"
+    },
+    {
+        "name": "Engineering Tutoring",
+        "slug": "engineering-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/engineering-tutoring/"
+    },
+    {
+        "name": "Environmental Science Tutoring",
+        "slug": "environmental-science-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/environmental-science-tutoring/"
+    },
+    {
+        "name": "Geography Tutoring",
+        "slug": "geography-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/geography-tutoring/"
+    },
+    {
+        "name": "GRE Tutoring",
+        "slug": "gre-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/gre-tutoring/"
+    },
+    {
+        "name": "High Valyrian Tutoring",
+        "slug": "high-valyrian-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/high-valyrian-tutoring/"
+    },
+    {
+        "name": "History Tutoring",
+        "slug": "history-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/history-tutoring/"
+    },
+    {
+        "name": "Jobs Entrance Exam Tutoring",
+        "slug": "jobs-entrance-exam-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/jobs-entrance-exam-tutoring/"
+    },
+    {
+        "name": "Language Tutoring",
+        "slug": "language-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/language-tutoring/"
+    },
+    {
+        "name": "Maths Tutoring",
+        "slug": "maths-tutors",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/maths-tutors/"
+    },
+    {
+        "name": "MCAT Tutoring",
+        "slug": "mcat-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/mcat-tutoring/"
+    },
+    {
+        "name": "Mechanical Engineering Tutoring",
+        "slug": "mechanical-engineering-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/mechanical-engineering-tutoring/"
+    },
+    {
+        "name": "Philosophy Tutoring",
+        "slug": "philosophy-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/philosophy-tutoring/"
+    },
+    {
+        "name": "Physics Tutoring",
+        "slug": "physics-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/physics-tutoring/"
+    },
+    {
+        "name": "Poetry Lessons",
+        "slug": "poetry-lessons",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/poetry-lessons/"
+    },
+    {
+        "name": "Precalculus Tutoring",
+        "slug": "precalculus-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/precalculus-tutoring/"
+    },
+    {
+        "name": "Psychology Tutoring",
+        "slug": "psychology-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/psychology-tutoring/"
+    },
+    {
+        "name": "Reading and Writing Tutoring",
+        "slug": "reading-and-writing-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/reading-and-writing-tutoring/"
+    },
+    {
+        "name": "SAT Tutoring",
+        "slug": "sat-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/sat-tutoring/"
+    },
+    {
+        "name": "Science Tutoring",
+        "slug": "science-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/science-tutoring/"
+    },
+    {
+        "name": "Social Science Tutoring",
+        "slug": "social-science-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/social-science-tutoring/"
+    },
+    {
+        "name": "Statistics Tutoring",
+        "slug": "statistics-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/statistics-tutoring/"
+    },
+    {
+        "name": "Test of English as a Foreign Language TOEFL",
+        "slug": "english-language-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/english-language-tutoring/"
+    },
+    {
+        "name": "Trigonometry Tutoring",
+        "slug": "trigonometry-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/trigonometry-tutoring/"
+    },
+    {
+        "name": "Tutoring",
+        "slug": "private-tuition",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/private-tuition/"
+    },
+    {
+        "name": "Veterinary Science Tutoring",
+        "slug": "veterinary-science-tutoring",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/veterinary-science-tutoring/"
+    },
+    {
+        "name": "Acapella Group Entertainment",
+        "slug": "acapella-group-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/acapella-group-entertainment/"
+    },
+    {
+        "name": "Bagpipers",
+        "slug": "bagpipers",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/bagpipers/"
+    },
+    {
+        "name": "Band Entertainment",
+        "slug": "band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/band-entertainment/"
+    },
+    {
+        "name": "Big Band and Swing Band Entertainment",
+        "slug": "big-band-and-swing-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/big-band-and-swing-band-entertainment/"
+    },
+    {
+        "name": "Blues Band Entertainment",
+        "slug": "blues-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/blues-band-entertainment/"
+    },
+    {
+        "name": "Brass Band Entertainment",
+        "slug": "brass-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/brass-band-entertainment/"
+    },
+    {
+        "name": "Christian Music Band Entertainment",
+        "slug": "christian-music-bands",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/christian-music-bands/"
+    },
+    {
+        "name": "Composers",
+        "slug": "composers",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/composers/"
+    },
+    {
+        "name": "Country Band Entertainment",
+        "slug": "country-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/country-band-entertainment/"
+    },
+    {
+        "name": "DJ",
+        "slug": "dj-hire",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/dj-hire/"
+    },
+    {
+        "name": "Hip Hop Performers",
+        "slug": "hip-hop-performers",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/hip-hop-performers/"
+    },
+    {
+        "name": "Jazz Band Entertainment",
+        "slug": "jazz-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/jazz-band-entertainment/"
+    },
+    {
+        "name": "Karaoke",
+        "slug": "karaoke",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/karaoke/"
+    },
+    {
+        "name": "Latin Band Entertainment",
+        "slug": "latin-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/latin-band-entertainment/"
+    },
+    {
+        "name": "Mariachi Band Entertainment",
+        "slug": "mariachi-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/mariachi-band-entertainment/"
+    },
+    {
+        "name": "Music Duo Entertainment",
+        "slug": "music-duo-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/music-duo-entertainment/"
+    },
+    {
+        "name": "Party Music Consultants",
+        "slug": "party-music-consultants",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/party-music-consultants/"
+    },
+    {
+        "name": "Pop Band Entertainment",
+        "slug": "pop-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/pop-band-entertainment/"
+    },
+    {
+        "name": "Quintet Entertainment",
+        "slug": "quintet-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/quintet-entertainment/"
+    },
+    {
+        "name": "R and B Entertainment",
+        "slug": "r-and-b-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/r-and-b-entertainment/"
+    },
+    {
+        "name": "Reggae Band Entertainment",
+        "slug": "reggae-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/reggae-band-entertainment/"
+    },
+    {
+        "name": "Rock Band Entertainment",
+        "slug": "rock-band-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/rock-band-entertainment/"
+    },
+    {
+        "name": "Solo Musician Entertainment",
+        "slug": "solo-musician-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/solo-musician-entertainment/"
+    },
+    {
+        "name": "String Quartet Entertainment",
+        "slug": "string-quartet-entertainment",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/string-quartet-entertainment/"
+    },
+    {
+        "name": "Wedding Music Bands",
+        "slug": "wedding-band",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/wedding-band/"
+    },
+    {
+        "name": "Access Control & Door Entry",
+        "slug": "door-entry-systems",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/door-entry-systems/"
+    },
+    {
+        "name": "Automated Gates & Bollards",
+        "slug": "automated-gates",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/automated-gates/"
+    },
+    {
+        "name": "\"Burglar, Security & Intruder Alarm Installation\"",
+        "slug": "security-systems",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/security-systems/"
+    },
+    {
+        "name": "CCTV Installation",
+        "slug": "cctv-installation",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/cctv-installation/"
+    },
+    {
+        "name": "Fire Alarm System Installation",
+        "slug": "fire-safety",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/fire-safety/"
+    },
+    {
+        "name": "Fire Safety Management",
+        "slug": "fire-extinguisher-inspection",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/fire-extinguisher-inspection/"
+    },
+    {
+        "name": "Fire Sprinkler System Installation",
+        "slug": "fire-sprinkler-system-installation",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/fire-sprinkler-system-installation/"
+    },
+    {
+        "name": "Home & Safety Compliance Solutions",
+        "slug": "home-safety-compliance-solutions",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/home-safety-compliance-solutions/"
+    },
+    {
+        "name": "Locksmith",
+        "slug": "locksmith",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/locksmith/"
+    },
+    {
+        "name": "Security Fence Installation",
+        "slug": "security-fence-installation",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/security-fence-installation/"
+    },
+    {
+        "name": "Security Gate & Barrier Installation",
+        "slug": "security-gate-barrier-installation",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/security-gate-barrier-installation/"
+    },
+    {
+        "name": "Security Shutter Installation",
+        "slug": "security-shutter-installation/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/security-shutter-installation/"
+    },
+    {
+        "name": "Security Shutter Maintenance",
+        "slug": "security-shutter-maintenance/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/security-shutter-maintenance/"
+    },
+    {
+        "name": "Accordion Lessons",
+        "slug": "accordion-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/accordion-lessons/"
+    },
+    {
+        "name": "Acting Classes",
+        "slug": "acting-classes/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/acting-classes/"
+    },
+    {
+        "name": "Bagpipe Lessons",
+        "slug": "bagpipe-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/bagpipe-lessons/"
+    },
+    {
+        "name": "Ballroom Dance Classes",
+        "slug": "ballroom-dance-classes/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/ballroom-dance-classes/"
+    },
+    {
+        "name": "Banjo Lessons",
+        "slug": "banjo-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/banjo-lessons/"
+    },
+    {
+        "name": "Bass Guitar Lessons",
+        "slug": "bass-guitar-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/bass-guitar-lessons/"
+    },
+    {
+        "name": "Bassoon Lessons",
+        "slug": "bassoon-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/bassoon-lessons/"
+    },
+    {
+        "name": "Belly Dance Lessons",
+        "slug": "belly-dance-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/belly-dance-lessons/"
+    },
+    {
+        "name": "Cello Lessons",
+        "slug": "cello-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/cello-lessons/"
+    },
+    {
+        "name": "Circus Arts Lessons",
+        "slug": "circus-arts-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/circus-arts-lessons/"
+    },
+    {
+        "name": "Clarinet Lessons",
+        "slug": "clarinet-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/clarinet-lessons/"
+    },
+    {
+        "name": "Comedy Lessons",
+        "slug": "comedy-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/comedy-lessons/"
+    },
+    {
+        "name": "Dance Choreography Lessons",
+        "slug": "dance-choreography-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/dance-choreography-lessons/"
+    },
+    {
+        "name": "Dance Lessons",
+        "slug": "dance-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/dance-lessons/"
+    },
+    {
+        "name": "Double Bass Lessons",
+        "slug": "double-bass-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/double-bass-lessons/"
+    },
+    {
+        "name": "Drum Lessons",
+        "slug": "drum-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/drum-lessons/"
+    },
+    {
+        "name": "Fiddle Lessons",
+        "slug": "fiddle-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/fiddle-lessons/"
+    },
+    {
+        "name": "Flute Lessons",
+        "slug": "flute-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/flute-lessons/"
+    },
+    {
+        "name": "French Horn Lessons",
+        "slug": "french-horn-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/french-horn-lessons/"
+    },
+    {
+        "name": "Guitar Lessons",
+        "slug": "guitar-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/guitar-lessons/"
+    },
+    {
+        "name": "Harmonica Lessons",
+        "slug": "harmonica-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/harmonica-lessons/"
+    },
+    {
+        "name": "Harp Lessons",
+        "slug": "harp-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/harp-lessons/"
+    },
+    {
+        "name": "Hip Hop Dance Classes",
+        "slug": "hip-hop-dance-classes/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/hip-hop-dance-classes/"
+    },
+    {
+        "name": "Keyboard Lessons",
+        "slug": "keyboard-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/keyboard-lessons/"
+    },
+    {
+        "name": "Mandolin Lessons",
+        "slug": "mandolin-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/mandolin-lessons/"
+    },
+    {
+        "name": "Music Composition Lessons",
+        "slug": "music-composition-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/music-composition-lessons/"
+    },
+    {
+        "name": "Music Lessons",
+        "slug": "music-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/music-lessons/"
+    },
+    {
+        "name": "Music Theory Lessons",
+        "slug": "music-theory-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/music-theory-lessons/"
+    },
+    {
+        "name": "Oboe Lessons",
+        "slug": "oboe-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/oboe-lessons/"
+    },
+    {
+        "name": "Piano Lessons",
+        "slug": "piano-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/piano-lessons/"
+    },
+    {
+        "name": "Pole Dancing Classes",
+        "slug": "pole-dancing-classes/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/pole-dancing-classes/"
+    },
+    {
+        "name": "Rap Music Lessons",
+        "slug": "rap-music-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/rap-music-lessons/"
+    },
+    {
+        "name": "Salsa Dance Lessons",
+        "slug": "salsa-dance-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/salsa-dance-lessons/"
+    },
+    {
+        "name": "Saxophone Lessons",
+        "slug": "saxophone-lessons/",
+        "source": "categories",
+        "_follow": "https://www.bark.com/en/gb/saxophone-lessons/"
+    }
+]

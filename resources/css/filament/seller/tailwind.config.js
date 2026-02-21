@@ -1,0 +1,105 @@
+import preset from '../../../../vendor/filament/filament/tailwind.config.preset'
+
+export default {
+    presets: [preset],
+    content: [
+        './app/Filament/Seller/**/*.php',
+        './resources/views/**/*.blade.php',
+        './resources/views/components/chat/message-item.blade.php',
+        './app/Providers/AppServiceProvider.php',
+        './resources/views/filament/seller/**/*.blade.php',
+        './vendor/filament/**/*.blade.php',
+        './resources/views/livewire/*.blade.php',
+        './resources/views/forms/**/*.blade.php',
+        './vendor/jaocero/radio-deck/resources/views/**/*.blade.php',
+
+    ],
+    boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+    },
+    safelist: [
+        'h-14',
+        'max-h-[45px]',
+        'h-[40px]',
+        'max-h-[50px]',
+        'max-h-[60px]',
+        'text-secondary-500',
+        'animate-pulse',
+        'animate-bounce',
+        'animate-ping',
+        'animate-spin',
+        'animate-[wiggle_1s_ease-in-out_infinite]',
+        'bg-red-500',
+        'red-500',
+        'text-white',
+        'bg-blue-500',
+        'blue-500',
+        'bg-purple-500',
+        'purple-500',
+        'border-none',
+        'min-w-[350px]', 'min-w-[360px]', 'min-w-[320px]', 'min-w-[290px]', 'min-w-[240px]',
+        'max-w-[240px]', 'min-w-[300px]', 'max-w-[300px]', 'min-h-[250px]', 'min-h-[260px]', 'min-h-[220px]', 'min-h-[270px]',
+        'rounded-tr-[4.5rem]',
+        'rounded-tr-[3.5rem]',
+        'rounded-tr-[2.5rem]',
+        'rounded-bl-[1.5rem]', 'rounded-tl-[4.5rem]',
+        'rounded-tl-[3.5rem]',
+        'rounded-tl-[2.5rem]',
+        'rounded-bl-[1.5rem]',
+        'rounded-tr-[1.5rem]',
+        'mx-[-20px]', 'mx-[-6px]', 'ml-[-6px]', 'mr-[-6px]',
+        'lg:grid-cols-5', 'lg:grid-cols-6', 'md:grid-cols-4', 'md:grid-cols-5', 'md:grid-cols-3', 'md:grid-cols-2', 'xl:grid-cols-5',
+        'lg:grid-cols-4', 'sm:grid-cols-2', '2xl:grid-cols-8', 'xl:grid-cols-6', 'xs:grid-cols-1', 'sm:grid-cols-1',
+        'w-full',
+        'border-0', 'border-none', 'bg-transparent',
+        'text-primary-300', 'text-primary-400', 'text-primary-500', 'text-primary-600', 'text-primary-700', 'text-primary-800', 'text-primary-900',
+        'bg-primary-300', 'bg-primary-400', 'bg-primary-500', 'bg-primary-600', 'bg-primary-700', 'bg-primary-800', 'bg-primary-900',
+        'bg-secondary-300', 'bg-secondary-400', 'bg-secondary-500', 'bg-secondary-600', 'bg-secondary-700', 'bg-secondary-800', 'bg-secondary-900',
+        'border-primary-300', 'border-primary-400', 'border-primary-500', 'border-primary-600', 'border-primary-700', 'border-primary-800', 'border-primary-900',
+        'shadow-3xl', 'shadow-inner', 'shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]', 'shadow-[0_10px_50px_-18px_#d761d0]',
+        'justify-self-end', 'flex-col', 'mx-auto', '-mt-20', '-mt-32', '!gap-0'
+    ],
+    theme: {
+        extend: {
+
+            fontFamily: {
+                mt: ['Arial Rounded MT', "sans-serif"],
+                mtb: ["Arial Rounded MT Bold", "sans-serif"],
+                noto: ["Noto Sans Arabic", "sans-serif"],
+                sans: ["Gordita", "sans-serif"],
+                arabic: ["Bahij", "sans-serif"],
+
+
+            },
+            colors: {
+                primary: {
+                    50: '#e3e8f1',
+                    100: '#94a5c8',
+                    200: '#4c649d',
+                    300: '#354f8f',
+                    400: '#203a80',
+                    500: '#0c2371',
+                    600: '#091d61',
+                    700: '#061752',
+                    800: '#041143',
+                    900: '#030c35',
+                },
+                secondary: {
+                    50: '#e7edf9',
+                    100: '#b8c9ed',
+                    200: '#8ba5df',
+                    300: '#6080d0',
+                    400: '#385bbf',
+                    500: '#2547b6',
+                    600: '#1f3d9e',
+                    700: '#193286',
+                    800: '#0d1f59',
+                    900: '#040d30',
+                },
+            },
+        },
+    },
+    plugins: [
+        // ...
+    ],
+}

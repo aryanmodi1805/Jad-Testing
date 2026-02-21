@@ -16,7 +16,7 @@ class VerifyTenant
     public function handle(Request $request, Closure $next): Response
     {
         // Bypass tenant verification for local development and testing
-        if (app()->environment('local', 'testing')) {
+        if (app()->environment('local', 'testing', 'staging')) {
             return $next($request);
         }
 

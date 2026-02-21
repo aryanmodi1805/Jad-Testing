@@ -610,7 +610,7 @@ if (!function_exists('redirectToTenant')) {
         $hostWithoutSubdomains = getHost();
         
         // For local development, use http and handle localhost/127.0.0.1 without subdomains
-        if (app()->environment('local', 'testing')) {
+        if (app()->environment('local', 'testing', 'staging')) {
             // In local development, don't redirect to subdomain, just use the current host
             if (in_array($hostWithoutSubdomains, ['localhost', '127.0.0.1'])) {
                 return redirect()->to($request->getRequestUri());
